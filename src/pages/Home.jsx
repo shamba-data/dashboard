@@ -1,9 +1,11 @@
 import React from "react";
+import { Banner } from "../components";
 import { countryData } from "../data/rwanda";
 
 const Home = () => {
   return (
     <div className="mt-[12vh] ml-7">
+      <Banner />
       <h3 className="text-xl font-medium">
         {/* The country below here should be dynamic */}
         Welcome to the country dashboard for Rwanda

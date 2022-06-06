@@ -1,9 +1,11 @@
 import React from "react";
 import LineChart from "../components/LineChart";
+import { Banner } from "../components";
 
 const FoodSecurity = () => {
   return (
     <div className="mt-[12vh] ml-7 mr-5">
+      <Banner />
       <main className="leading-loose">
         <h3 className="font-semibold text-xl">Food Security</h3>
         <p className="text-lg mt-5">
