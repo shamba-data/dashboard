@@ -20,7 +20,7 @@ const Sidebar = () => {
     "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md text-gray-700 hover:bg-light-gray m-2";
 
   return (
-    <div className="ml-3 h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto shadow-lg bg-slate-50">
+    <div className="ml-3 h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto shadow-lg bg-slate-300">
       {activeMenu && (
         <React.Fragment>
           <div className="flex justify-between items-center">

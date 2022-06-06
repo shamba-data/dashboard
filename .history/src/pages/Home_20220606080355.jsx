@@ -7,7 +7,7 @@ const Home = () => {
         {/* The country below here should be dynamic */}
         Welcome to the country dashboard of Rwanda
       </h3>
-      <p className="text-lg mt-6 text-center mr-5 ">
+      <p className="text-base ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
         molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
         fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus

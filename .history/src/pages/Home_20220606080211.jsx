@@ -2,12 +2,12 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="mt-[12vh] ml-7">
-      <h3 className="text-xl font-medium">
+    <div className="mt-16">
+      <h3 className="text-lg">
         {/* The country below here should be dynamic */}
         Welcome to the country dashboard of Rwanda
       </h3>
-      <p className="text-lg mt-6 text-center mr-5 ">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
         molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
         fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
