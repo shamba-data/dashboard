@@ -61,7 +61,7 @@ function App() {
 
                 {/* Ag players */}
                 <Route
-                  path="/majorAgriculturePlayers"
+                  path="/agriculturePlayers"
                   element={<AgriculturalPlayers />}
                 />
 

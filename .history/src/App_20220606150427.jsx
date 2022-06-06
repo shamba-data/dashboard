@@ -1,4 +1,3 @@
-import React, { Suspense } from "react";
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Navbar, Sidebar } from "./components";
 import { useStateContext } from "./contexts/ContextProvider";
@@ -7,18 +6,15 @@ import {
   DataLabelling,
   FoodAvailability,
   FoodSecurity,
-  NotFound
+  Footer,
+  NotFound,
+  AgriculturalPlayers
 } from "./pages";
-
-// The lazy loading below is completely optional
-const AgriculturalPlayers = React.lazy(() =>
-  import("./pages/AgriculturalPlayers")
-);
 
 function App() {
   const { activeMenu, setActiveMenu } = useStateContext();
   return (
-    <Suspense fallback={<p>Loading ...</p>}>
+    <div className="">
       <BrowserRouter>
         <div className="flex relative">
           {activeMenu ? (
@@ -61,7 +57,7 @@ function App() {
 
                 {/* Ag players */}
                 <Route
-                  path="/majorAgriculturePlayers"
+                  path="/agriculturePlayers"
                   element={<AgriculturalPlayers />}
                 />
 
@@ -73,7 +69,7 @@ function App() {
           </div>
         </div>
       </BrowserRouter>
-    </Suspense>
+    </div>
   );
 }
 
