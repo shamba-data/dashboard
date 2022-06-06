@@ -8,12 +8,7 @@ const Home = () => {
         {/* The country below here should be dynamic */}
         Welcome to the country dashboard for Rwanda
       </h3>
-      {countryData.map((data) => (
-        <div key={data.title} className="mt-8 ml-5 px-5">
-          <h3 className="font-semibold text-xl">{data.title}</h3>
-          <p className="leading-loose text-lg">{data.text}</p>
-        </div>
-      ))}
+      {countryData.map((data) => {})}
       <p className="text-lg mt-6 text-center mr-5 "></p>
     </div>
   );

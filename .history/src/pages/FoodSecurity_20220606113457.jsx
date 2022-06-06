@@ -25,13 +25,10 @@ const FoodSecurity = () => {
         </p>
 
         <h3 className="text-lg font-medium mt-6">
-          Food Production of major crops in Rwanda from 2014 - 2020
+          Choose a particular range of years
         </h3>
       </main>
-
-      <div className="mt-9">
-        <LineChart />
-      </div>
+      <LineChart />
     </div>
   );
 };

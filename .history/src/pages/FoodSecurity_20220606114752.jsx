@@ -28,10 +28,7 @@ const FoodSecurity = () => {
           Food Production of major crops in Rwanda from 2014 - 2020
         </h3>
       </main>
-
-      <div className="mt-9">
-        <LineChart />
-      </div>
+      <LineChart />
     </div>
   );
 };

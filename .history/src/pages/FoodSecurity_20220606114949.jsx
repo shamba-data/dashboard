@@ -29,9 +29,7 @@ const FoodSecurity = () => {
         </h3>
       </main>
 
-      <div className="mt-9">
-        <LineChart />
-      </div>
+      <LineChart />
     </div>
   );
 };
